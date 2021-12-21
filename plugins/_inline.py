@@ -666,10 +666,10 @@ async def ibuild(e):
                     cont = InputWebDocument(pic, 0, mime_type, [])
                 results = [
                     await builder.article(
-                        title="Ultroid Op",
+                        title="SlapTap OP",
                         type=_type,
                         text=txt,
-                        description="@TeamUltroid",
+                        description="@SlapTap",
                         include_media=include_media,
                         buttons=btn,
                         thumb=cont,
