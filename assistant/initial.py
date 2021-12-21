@@ -10,35 +10,35 @@ import re
 from . import *
 
 STRINGS = {
-    1: """🎇 **Thanks for Deploying Ultroid Userbot!**
+    1: """🎇 **Thanks for Deploying SlapTap Userbot!**
 
 • Here, are the Some Basic stuff from, where you can Know, about its Usage.""",
-    2: """🎉** About Ultroid**
+    2: """🎉** About SlapTap**
 
-🧿 Ultroid is Pluggable and powerful Telethon Userbot, made in Python from Scratch. It is Aimed to Increase Security along with Addition of Other Useful Features.
+🧿 SlapTap is Pluggable and powerful Telethon Userbot, made in Python from Scratch. It is Aimed to Increase Security along with Addition of Other Useful Features.
 
 ❣ Made by **@TeamUltroid**""",
     3: """**💡• FAQs •**
 
--> [Username Tracker](https://t.me/UltroidUpdates/24)
--> [Keeping Custom Addons Repo](https://t.me/UltroidUpdates/28)
--> [Disabling Deploy message](https://t.me/UltroidUpdates/27)
--> [Setting up TimeZone](https://t.me/UltroidUpdates/22)
--> [About Inline PmPermit](https://t.me/UltroidUpdates/21)
--> [About Dual Mode](https://t.me/UltroidUpdates/18)
--> [Custom Thumbnail](https://t.me/UltroidUpdates/13)
--> [About FullSudo](https://t.me/UltroidUpdates/11)
--> [Setting Up PmBot](https://t.me/UltroidUpdates/2)
--> [Also Check](https://t.me/UltroidUpdates/14)
+-> [Username Tracker](https://t.me/SlapTap/11)
+-> [Keeping Custom Addons Repo](https://t.me/SlapTap/12)
+-> [Disabling Deploy message](https://t.me/SlapTap/13)
+-> [Setting up TimeZone](https://t.me/SlapTap/14)
+-> [About Inline PmPermit](https://t.me/SlapTap/15)
+-> [About Dual Mode](https://t.me/SlapTap/16)
+-> [Custom Thumbnail](https://t.me/SlapTap/17)
+-> [About FullSudo](https://t.me/SlapTap/18)
+-> [Setting Up PmBot](https://t.me/SlapTap/19)
+-> [Also Check](https://t.me/SlapTap/20)
 
 **• To Know About Updates**
-  - Join @TheUltroid.""",
+  - Join @SlapTap.""",
     4: f"""• `To Know All Available Commands`
 
   - `{HNDLR}help`
   - `{HNDLR}cmds`""",
     5: """• **For Any Other Query or Suggestion**
-  - Move to **@UltroidSupport**.
+  - Move to **@SlapTaps**.
 
 • Thanks for Reaching till END.""",
 }
