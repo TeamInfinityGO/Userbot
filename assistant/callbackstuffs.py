@@ -149,7 +149,7 @@ async def changes(okk):
             )
             img = await carbon.memorize("changelog")
             return await okk.edit(
-                f"**• Ultroid Userbot •**{cli}", file=img, buttons=button
+                f"**• SlapTap Userbot •**{cli}", file=img, buttons=button
             )
         except Exception as er:
             LOGS.exception(er)
@@ -331,7 +331,7 @@ async def euwhe(event):
         [Button.inline("Dᴜᴀʟ Mᴏᴅᴇ Hɴᴅʟʀ", "dmhn")],
     ]
     await event.edit(
-        "About [Dual Mode](https://t.me/UltroidUpdates/18)",
+        "About [Dual Mode](https://t.me/SlapTap/16)",
         buttons=BT,
         link_preview=False,
     )
@@ -418,7 +418,7 @@ async def pluginch(event):
     name = "Plugin Channel"
     async with event.client.conversation(pru) as conv:
         await conv.send_message(
-            "Send id or username of a channel from where u want to install all plugins\n\nOur Channel~ @ultroidplugins\n\nUse /cancel to cancel.",
+            "Send id or username of a channel from where u want to install all plugins\n\nOur Channel~ @SlapTap \n\nUse /cancel to cancel.",
         )
         response = conv.wait_event(events.NewMessage(chats=pru))
         response = await response
@@ -1119,7 +1119,7 @@ async def hhh(e):
 @callback("chatbot", owner=True)
 async def chbot(event):
     await event.edit(
-        "From This Feature U can chat with ppls Via ur Assistant Bot.\n[More info](https://t.me/UltroidUpdates/2)",
+        "From This Feature U can chat with ppls Via ur Assistant Bot.\n[More info](https://t.me/SlapTap/19)",
         buttons=[
             [Button.inline("Cʜᴀᴛ Bᴏᴛ  Oɴ", data="onchbot")],
             [Button.inline("Cʜᴀᴛ Bᴏᴛ  Oғғ", data="ofchbot")],
@@ -1243,7 +1243,7 @@ async def chon(event):
 @callback("vcb", owner=True)
 async def vcb(event):
     await event.edit(
-        "From This Feature U can play songs in group voice chat\n\n[moreinfo](https://t.me/UltroidUpdates/4)",
+        "From This Feature U can play songs in group voice chat\n\n[moreinfo](https://t.me/SlapTap/21)",
         buttons=[
             [Button.inline("VC Sᴇssɪᴏɴ", data="vcs")],
             [Button.inline("« Bᴀᴄᴋ", data="setter")],
