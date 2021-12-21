@@ -7,12 +7,15 @@
 
 
 echo "
-            ┏┳┓╋┏┓╋╋╋╋┏┓┏┓
-            ┃┃┣┓┃┗┳┳┳━╋╋┛┃
-            ┃┃┃┗┫┏┫┏┫╋┃┃╋┃
-            ┗━┻━┻━┻┛┗━┻┻━┛
+_ooooo__ooo_____________________oooooooo___________________
+oo___oo__oo____ooooo_____ooooo_____oo_____ooooo_____ooooo__
+_oo______oo___oo___oo____o___oo____oo____oo___oo____o___oo_
+___oo____oo___oo___oo___oo___oo____oo____oo___oo___oo___oo_
+oo___oo__oo___oo___oo___oo___oo____oo____oo___oo___oo___oo_
+_ooooo__ooooo__oooo_o_o_ooooo______oo_____oooo_o_o_ooooo___
+______________________oooo_______________________oooo______
 
-      Visit @TheUltroid for updates!!
+      Visit @SlapTap for updates!!
 
 "
 
