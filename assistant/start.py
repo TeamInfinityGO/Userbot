@@ -27,7 +27,7 @@ Owner_info_msg = (
 
 **Message Forwards** - {udB.get("PMBOT")}
 
-**Ultroid [v{ultroid_version}](https://github.com/TeamUltroid/Ultroid), powered by @TeamUltroid**
+**SlapTap [v{ultroid_version}](https://github.com/TeamInfinityGO/Userbot), powered by @SlapTap**
 """
 )
 
@@ -94,7 +94,7 @@ async def ultroid(event):
             if udB.get("PMBOT") == "True":
                 ok = "You can contact my master using this bot!!\n\nSend your Message, I will Deliver it To Master."
             await event.reply(
-                f"Hey there [{get_display_name(u)}](tg://user?id={u.id}), this is Ultroid Assistant of [{ultroid_bot.me.first_name}](tg://user?id={ultroid_bot.uid})!\n\n{ok}",
+                f"Hey there [{get_display_name(u)}](tg://user?id={u.id}), this is Slaptap Assistant of [{ultroid_bot.me.first_name}](tg://user?id={ultroid_bot.uid})!\n\n{ok}",
                 file=udB.get("STARTMEDIA"),
                 buttons=[Button.inline("Info.", data="ownerinfo")]
                 if Owner_info_msg != "False"
