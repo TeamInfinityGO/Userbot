@@ -17,7 +17,7 @@ STRINGS = {
 
 🧿 SlapTap is Pluggable and powerful Telethon Userbot, made in Python from Scratch. It is Aimed to Increase Security along with Addition of Other Useful Features.
 
-❣ Made by **@TeamUltroid**""",
+❣ Made by **@SlapTap**""",
     3: """**💡• FAQs •**
 
 -> [Username Tracker](https://t.me/SlapTap/11)
