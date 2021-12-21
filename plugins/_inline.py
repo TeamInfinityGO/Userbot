@@ -26,7 +26,7 @@ from ._help import _main_help_menu
 # ================================================#
 notmine = f"This bot is for {OWNER_NAME}"
 
-TLINK = INLINE_PIC or "https://telegra.ph/file/d9c9bc13647fa1d96e764.jpg"
+TLINK = INLINE_PIC or "https://telegra.ph/file/69edfdbc3ae60ff8b8154.jpg"
 helps = get_string("inline_1")
 
 add_ons = udB.get("ADDONS")
@@ -43,8 +43,8 @@ upage = 0
 
 SUP_BUTTONS = [
     [
-        Button.url("• Repo •", url="https://github.com/TeamUltroid/Ultroid"),
-        Button.url("• Support •", url="t.me/UltroidSupport"),
+        Button.url("• Repo •", url="https://github.com/TeamInfinityGO/Userbot"),
+        Button.url("• Support •", url="https://t.me/SlapTaps"),
     ],
 ]
 
@@ -53,9 +53,9 @@ SUP_BUTTONS = [
 
 @in_pattern(owner=True, func=lambda x: not x.text)
 async def inline_alive(o):
-    MSG = "• **Ultroid Userbot •**"
+    MSG = "• **SlapTap Userbot •**"
     WEB0 = InputWebDocument(
-        "https://telegra.ph/file/55dd0f381c70e72557cb1.jpg", 0, "image/jpg", []
+        "https://telegra.ph/file/69edfdbc3ae60ff8b8154.jpg", 0, "image/jpg", []
     )
     RES = [
         await o.builder.article(
@@ -70,7 +70,7 @@ async def inline_alive(o):
             content=InputWebDocument(TLINK, 0, "image/jpg", []),
         )
     ]
-    await o.answer(RES, switch_pm="👥 ULTROID PORTAL", switch_pm_param="start")
+    await o.answer(RES, switch_pm="👥 SLAPTAP PORTAL", switch_pm_param="start")
 
 
 @in_pattern("ultd", owner=True)
@@ -252,7 +252,7 @@ async def _(e):
         [
             Button.switch_inline(
                 "Piston Eval",
-                query="run javascript console.log('Hello Ultroid')",
+                query="run javascript console.log('Hello SlapTap')",
                 same_peer=True,
             ),
             Button.switch_inline(
@@ -469,7 +469,7 @@ async def on_vc_plg_callback_query_handler(event):
         reply_pop_up_alert = f"{plugin_name} has no detailed help..."
     else:
         reply_pop_up_alert = help_string
-    reply_pop_up_alert += "\n© @TeamUltroid"
+    reply_pop_up_alert += "\n© @SlapTap"
     buttons = []
     if INLINE_PIC:
         buttons.append(
@@ -529,7 +529,7 @@ async def on_plug_in_callback_query_handler(event):
         reply_pop_up_alert = f"{plugin_name} has no detailed help..."
     else:
         reply_pop_up_alert = help_string
-    reply_pop_up_alert += "\n© @TeamUltroid"
+    reply_pop_up_alert += "\n© @SlapTap"
     buttons = []
     if INLINE_PIC:
         buttons.append(
